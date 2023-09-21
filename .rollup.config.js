@@ -11,7 +11,6 @@ module.exports = {
     include: ['src'],
   },
   inputPrefix: 'src',
-  workspace: ['libs'],
   handleCopyPackageJson(config){
     return {
       ...config,
