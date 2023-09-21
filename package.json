@@ -1,7 +1,7 @@
 {
   "name": "untapable",
   "version": "0.0.1",
-  "description": "pdd node sdk",
+  "description": "Enhance the Tapable library to incorporate the 'unTap' method.",
   "main": "src/index.ts",
   "scripts": {
     "dev": "node --max_old_space_size=8192 node_modules/rollup/dist/bin/rollup -w -c node_modules/@lywzx/rollup-build-scripts/rollup.config.js --only-entry=minify,cjs",
